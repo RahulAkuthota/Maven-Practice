@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'git@github.com:RahulAkuthota/Maven-Practice.git'
+                git 'https://github.com:RahulAkuthota/Maven-Practice.git'
             }
         }
 
